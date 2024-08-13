@@ -2,13 +2,14 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import {Header} from "./react-component/components"
+
+
 
 function App() {
   return (
     <>
-      <header>
-        <h1>🔥 Fireplace Palace</h1>
-      </header>
+      <Header/>
       <main>
         <section className="hero-section">
           <img
