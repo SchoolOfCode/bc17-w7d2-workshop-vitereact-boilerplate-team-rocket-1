@@ -19,10 +19,6 @@ body {
   font-family: "Aleo", serif;
 }
 
-h1 {
-  font-size: 2rem;
-}
-
 .hero-section {
   display: grid;
   grid-template-rows: 3fr 1fr;

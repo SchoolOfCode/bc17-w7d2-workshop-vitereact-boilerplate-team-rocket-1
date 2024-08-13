@@ -1,12 +1,4 @@
 
-export function Header() {
-  return (
-    <header>
-    <h1>🔥 Fireplace Palace</h1>
-    </header>
-  )
-}
-
 
 export function Main() {
 
@@ -26,8 +18,9 @@ export function HeroSection() {
 
 }
 
+export function HowItWorks()
 
-export function HowItWorks() {
+export function HowItWorksOne() {
 
 
 }
@@ -43,4 +36,8 @@ export function HowItWorksThree() {
 
 }
 
+export function Footer() {}
 
+export function FooterColumnOne() {}
+
+export function FooterColumnTwo() {}
