@@ -1,8 +1,16 @@
 Navigate to the folder.
-Run "npm install"
-Run "npm run dev"
+Run "npm install" ✅
+Run "npm run dev" ✅
 Add your code to the default component (App)
-- html v
-- class to className v
-- google fonts v
-- css
+
+- html ✅
+- class to className ✅
+- google fonts ✅
+- css ✅
+
+React
+
+- Split into components
+  - Header, Main, Footer
+    -
+- Try to pass some props to those components

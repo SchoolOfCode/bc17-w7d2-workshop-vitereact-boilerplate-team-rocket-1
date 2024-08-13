@@ -1,42 +1,117 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* 
+// FONT TEMPLATE
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.aleo-<uniquifier> {
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+} */
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Aleo", serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.hero-section {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  /* border: red 1px solid; */
+}
+
+.hero-image {
+  height: 100%;
+  width: 100%;
+}
+
+.orange-box {
+  background-color: orange;
+  padding: 0.5rem;
+}
+
+.orange-box h2 {
+  margin: 0;
+  font-size: 3rem;
+  /* border: red 1px solid; */
+}
+
+.orange-box p {
+  margin: 0.2rem 0 0.2rem;
+  /* border: red 1px solid; */
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.telephone-highlight {
+  color: white;
+}
+
+.how-it-works {
+  display: grid;
+  grid-template-rows: max-content 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.card h4,
+.card p {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.card h4 {
+  /* border: red 1px solid; */
+  font-size: 1.9rem;
+  margin-bottom: 0;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.give-us-a-call p {
+  margin-top: 0.9rem;
+  /* border: red 1px solid; */
+  font-weight: bolder;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.how-it-works h3 {
+  height: 100%;
+  font-size: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.footer {
+  padding: 10px;
+  height: 250px;
+  background-color: #f0f1f1;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
 }
-
-.card {
-  padding: 2em;
+.footer-colunm {
+  display: flex;
+  flex-direction: column;
 }
-
-.read-the-docs {
-  color: #888;
+.footer-nav {
+  display: block;
+  padding: 0;
+  list-style-type: none;
+}
+.socials-link {
+  text-decoration: none;
+  color: #000;
+}
+.email-link {
+  color: #000;
+}
+.colunms-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.separator {
+  width: 80%;
 }
