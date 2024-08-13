@@ -1,40 +1,14 @@
-
-
 export function Main() {
-
-return(
-  <main>
-
-  </main>
-)
+  return <main></main>;
 }
 
+export function HowItWorks() {}
 
+export function CardOne() {}
 
-export function HeroSection() {
+export function CardTwo() {}
 
-  // return()
-
-
-}
-
-export function HowItWorks()
-
-export function HowItWorksOne() {
-
-
-}
-
-
-export function HowItWorksTwo() {
-
-}
-
-
-export function HowItWorksThree() {
-
-
-}
+export function CardThree() {}
 
 export function Footer() {}
 

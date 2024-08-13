@@ -19,39 +19,6 @@ body {
   font-family: "Aleo", serif;
 }
 
-.hero-section {
-  display: grid;
-  grid-template-rows: 3fr 1fr;
-  /* border: red 1px solid; */
-}
-
-.hero-image {
-  height: 100%;
-  width: 100%;
-}
-
-.orange-box {
-  background-color: orange;
-  padding: 0.5rem;
-}
-
-.orange-box h2 {
-  margin: 0;
-  font-size: 3rem;
-  /* border: red 1px solid; */
-}
-
-.orange-box p {
-  margin: 0.2rem 0 0.2rem;
-  /* border: red 1px solid; */
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.telephone-highlight {
-  color: white;
-}
-
 .how-it-works {
   display: grid;
   grid-template-rows: max-content 1fr 1fr 1fr;

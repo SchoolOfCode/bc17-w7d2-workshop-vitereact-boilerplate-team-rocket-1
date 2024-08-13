@@ -2,28 +2,15 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import {Header} from "./header.jsx"
-
+import { Header } from "./react-component/header/header.jsx";
+import { HeroSection } from "./react-component/hero-section/hero-section.jsx";
 
 function App() {
   return (
     <>
-      <Header/>
+      <Header />
       <main>
-        <section className="hero-section">
-          <img
-            src="./images/hero-mobile.png"
-            alt="Discover the Fireplace Palace"
-            className="hero-image"
-          />
-          <article className="orange-box">
-            <h2>Discover the Perfect Fireplace</h2>
-            <p>
-              Book consultation:
-              <span className="telephone-highlight">0121 345 6789</span>
-            </p>
-          </article>
-        </section>
+        <HeroSection />
         <section className="how-it-works">
           <h3>How it works.</h3>
           <article className="give-us-a-call card">
