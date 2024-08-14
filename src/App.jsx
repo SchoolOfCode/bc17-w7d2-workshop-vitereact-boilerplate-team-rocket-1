@@ -2,8 +2,9 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import { Header } from "./react-component/header/header.jsx";
-import { HeroSection } from "./react-component/hero-section/hero-section.jsx";
+import { Header } from "./components/Header/Header.jsx";
+import { HeroSection } from "./components/HeroSection/HeroSection.jsx";
+import { HowItWorksTitle } from "./components/HowItWorks/HowItWorksTitle/HowItWorksTitle.jsx";
 
 function App() {
   return (
@@ -11,11 +12,9 @@ function App() {
       <Header />
       <main>
         <HeroSection />
-        <HowItWorksTitle>
-          <CardOne></CardOne>
-        </HowItWorksTitle>
+
         <section className="how-it-works">
-          <h3>How it works.</h3>
+          <HowItWorksTitle />
           <article className="give-us-a-call card">
             <img src="images\how-it-works-1.png" alt="bla bla vla" />
             <h4>Give us a call...</h4>
