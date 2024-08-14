@@ -11,6 +11,9 @@ function App() {
       <Header />
       <main>
         <HeroSection />
+        <HowItWorksTitle>
+          <CardOne></CardOne>
+        </HowItWorksTitle>
         <section className="how-it-works">
           <h3>How it works.</h3>
           <article className="give-us-a-call card">

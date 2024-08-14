@@ -4,11 +4,6 @@ export function Main() {
 
 export function HowItWorks() {}
 
-export function CardOne() {}
-
-export function CardTwo() {}
-
-export function CardThree() {}
 
 export function Footer() {}
 
