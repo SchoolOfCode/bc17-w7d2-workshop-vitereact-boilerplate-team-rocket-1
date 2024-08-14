@@ -5,6 +5,8 @@ import "./App.css";
 import { Header } from "./components/Header/Header.jsx";
 import { HeroSection } from "./components/HeroSection/HeroSection.jsx";
 import { HowItWorksTitle } from "./components/HowItWorks/HowItWorksTitle/HowItWorksTitle.jsx";
+import {CardOne} from "./components/HowItWorks/CardOne/CardOne.jsx"
+import { CardTwo } from "./components/HowItWorks/CardTwo/CardTwo.jsx";
 
 function App() {
   return (
@@ -15,23 +17,8 @@ function App() {
 
         <section className="how-it-works">
           <HowItWorksTitle />
-          <article className="give-us-a-call card">
-            <img src="images\how-it-works-1.png" alt="bla bla vla" />
-            <h4>Give us a call...</h4>
-            <p>
-              Call us and book in a "Design Consultation" on a date and time
-              that suits you.
-            </p>
-          </article>
-          <article className="we-come-to-you card">
-            <img src="images\how-it-works-2.png" />
-            <h4>We come to you...</h4>
-            <p>
-              {" "}
-              We come to your home to do an assessment of the space and to your
-              style preference.
-            </p>
-          </article>
+          <CardOne/>
+          <CardTwo/>
           <article className="we-recommend card">
             <img src="images/how-it-works-3.png" />
             <h4>We recommend...</h4>
